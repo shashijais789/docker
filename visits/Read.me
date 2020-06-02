@@ -1,0 +1,20 @@
+##Docker-Compose example with node and redis
+
+#Bring up the containers
+docker-compose up
+
+#bring up the containers if you have to rebuild the images as well
+docker-compose up --build
+
+#bring up the containers in the background
+docker-compose up -d
+
+#Stop the containers
+docker-compose down
+
+#Restart policy
+no|always|on-failure|unless-stopped
+
+#Status with docker-compose(should be run from the same directory where the docker-compse.yml file is present)
+docker-compose ps
+
